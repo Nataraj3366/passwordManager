@@ -1,0 +1,70 @@
+.password-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f8fafc;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  margin: 0px 10px 10px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-details-container {
+    width: 290px;
+    height: 150px;
+  }
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #0ea5e9;
+  border-radius: 25px;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.initial-text {
+  color: #ffffff;
+}
+
+.user-entered-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80px;
+  width: 40%;
+}
+
+.details {
+  margin: 1px;
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+
+.delete-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.delete-icon {
+  width: 30px;
+}
+
+.stars-image {
+  width: 120px;
+  margin-top: 5px;
+}
